@@ -44,3 +44,40 @@
     transform: rotate(360deg);
   }
 }
+
+.attribute-met {
+  border-color: green;
+  background-color: #e0ffe0;
+  color: black;
+}
+
+.attribute-not-met {
+  border-color: red;
+  background-color: #ffe0e0;
+  color: black;
+}
+
+.attributes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.attribute-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.attribute-row h3 {
+  margin-right: 10px;
+}
+
+.attribute-row p {
+  margin: 0 10px;
+}
+
+.attribute-row button {
+  margin-left: 5px;
+}
